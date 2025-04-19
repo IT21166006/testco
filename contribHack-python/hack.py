@@ -73,7 +73,7 @@ def main():
 
     # Filling
     end_date = date.today()
-    start_date = end_date - timedelta(371)
+    start_date = end_date - timedelta(1000)
 
     weekday = int(start_date.strftime("%w"))
     start_date = start_date+timedelta(6-weekday)
